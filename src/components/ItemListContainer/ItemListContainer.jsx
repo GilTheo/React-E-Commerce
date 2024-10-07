@@ -1,7 +1,7 @@
-const ItemListContainer = (props) => {
+const ItemListContainer = ( {greeting}) => {
     return (
         <div>
-            <h2>hola mundo</h2>
+            {greeting}
         </div>
     )
 }
