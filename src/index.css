@@ -11,6 +11,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  background-color: #CF5C36;
-  color: #EEE5E9;
+}
+
+body {
+  background-color: #EEE5E9;
 }

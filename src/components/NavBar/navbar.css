@@ -4,12 +4,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #7C7C7C;
+}
+
+.brand {
+    text-decoration: none;
     color: #EEE5E9;
 }
 
 .navbar .brand h2 {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .navbar ul {
@@ -21,10 +26,18 @@
     padding: 0 30px;
     font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
+    color: #EEE5E9;
+}
+
+.link {
+    text-decoration: none;
+    color: #EEE5E9;
 }
 
 .cartwidget {
     display: flex;
+    color: #EEE5E9;
 }
 
 .cart-counter {
