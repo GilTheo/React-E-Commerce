@@ -1,0 +1,36 @@
+.detail-counter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  width: 65px;
+  background-color: transparent;
+}
+
+.counter-button {
+  border: none;
+  background-color: transparent;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.counter-display {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.add-to-cart-button {
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #EEE5E9;
+  transition: transform 0.3s ease;
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+.add-to-cart-button:hover {
+  transform: scale(1.02);
+}

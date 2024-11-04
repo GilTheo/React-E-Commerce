@@ -1,49 +1,50 @@
 .item-detail-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .item-detail {
-    width: 1000px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #7C7C7C;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7c7c7c;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .item-detail img {
-    width: 650px;
-    height: 100%;
-    object-fit: cover;
-    margin-left: -197px;
+  width: 650px;
+  height: 100%;
+  object-fit: cover;
+  margin-left: -197px;
 }
 
 .item-detail-content {
-    padding: 16px;
+  padding: 30px;
+  max-width: 60%;
 }
 
 .item-detail-content h2 {
-    font-size: 64px;
-    margin-bottom: 8px;
-    color: #EEE5E9;
-    text-transform: capitalize;
+  font-size: 64px;
+  margin-bottom: 8px;
+  color: #eee5e9;
+  text-transform: capitalize;
 }
 
 .item-detail-content .description {
-    font-size: 20px;
-    margin-bottom: 8px;
-    color: #eee5e9be;
-    text-transform: capitalize;
-    padding-right: 70px;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #eee5e9be;
+  text-transform: capitalize;
+  padding-right: 70px;
 }
 
 .item-detail-content .precio {
-    color: #EEE5E9;
-    font-size: 28px;
-    margin-bottom: 20px;
+  color: #eee5e9;
+  font-size: 28px;
+  margin-bottom: 17px;
 }

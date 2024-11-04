@@ -2,8 +2,7 @@ const products = [
   {
     id: "daga685f",
     name: "sillon",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda nemo error! Esse, praesentium quia. Autem repellendus debitis obcaecati libero quia, quidem quibusdam ipsum officia, accusantium officiis mollitia? Vel, laborum.",
+    description:"",
     stock: 4,
     price: 470,
     image: "/img/sillon.jpg",
@@ -20,13 +19,33 @@ const products = [
     category: "living",
   },
   {
+    id: "fmsuh455",
+    name: "mesa de estar",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda nemo error! Esse, praesentium quia. Autem repellendus debitis obcaecati libero quia, quidem quibusdam ipsum officia, accusantium officiis mollitia? Vel, laborum.",
+    stock: 3,
+    price: 360,
+    image: "/img/mesa-de-estar.jpg",
+    category: "living",
+  },
+  {
     id: "43dgdsv5",
-    name: "mesa",
+    name: "mesa de vidrio",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda nemo error! Esse, praesentium quia. Autem repellendus debitis obcaecati libero quia, quidem quibusdam ipsum officia, accusantium officiis mollitia? Vel, laborum.",
     stock: 6,
     price: 150,
-    image: "/img/mesa.jpg",
+    image: "/img/mesa-vidrio.jpg",
+    category: "comedor",
+  },
+  {
+    id: "nud897h",
+    name: "mesa de madera",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda nemo error! Esse, praesentium quia. Autem repellendus debitis obcaecati libero quia, quidem quibusdam ipsum officia, accusantium officiis mollitia? Vel, laborum.",
+    stock: 4,
+    price: 140,
+    image: "/img/mesa-madera.jpg",
     category: "comedor",
   },
   {
@@ -51,22 +70,31 @@ const products = [
   },
   {
     id: "fry356tt",
-    name: "escritorio",
+    name: "escritorio industrial",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda nemo error! Esse, praesentium quia. Autem repellendus debitis obcaecati libero quia, quidem quibusdam ipsum officia, accusantium officiis mollitia? Vel, laborum.",
     stock: 7,
     price: 190,
     image: "/img/escritorio.jpg",
     category: "dormitorio",
+  },{
+    id: "fju8717n",
+    name: "escritorio de madera",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis assumenda nemo error! Esse, praesentium quia. Autem repellendus debitis obcaecati libero quia, quidem quibusdam ipsum officia, accusantium officiis mollitia? Vel, laborum.",
+    stock: 4,
+    price: 170,
+    image: "/img/escritorio-madera.jpg",
+    category: "dormitorio",
   },
 ];
 
-const getProducts = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(products);
-    }, 1000);
-  });
-};
+// const getProducts = () => {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve(products);
+//     }, 1000);
+//   });
+// };
 
-export { getProducts };
+// export { getProducts };

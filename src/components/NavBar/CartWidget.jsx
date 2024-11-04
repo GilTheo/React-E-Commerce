@@ -1,12 +1,17 @@
-import { FiShoppingCart } from "react-icons/fi";
+import { FiShoppingCart } from "react-icons/fi"
+import { useContext } from "react"
+import { CartContext } from "../../context/CartContext"
+import { Link } from "react-router-dom"
 
 const CarWidget = () => {
-  return (
-    <div className="cartwidget">
-      <FiShoppingCart className="icon-cart" size={35} color="#EEE5E9" />
-      <p className="cart-counter">0</p>
-    </div>
-  );
-};
+  const { totalQuantity } = useContext(CartContext)
 
-export default CarWidget;
+  return (
+    <Link to="/cart" className="cartwidget">
+      <FiShoppingCart className="icon-cart" size={35} color="#EEE5E9" />
+      <p className="cart-counter">{totalQuantity()}</p>
+    </Link>
+  )
+}
+
+export default CarWidget
