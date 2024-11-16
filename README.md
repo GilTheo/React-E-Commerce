@@ -14,8 +14,6 @@ Fue creado como parte de un curso de React con el objetivo de aprender y aplicar
 
 ## **Características del Proyecto**
 
-## **Características del Proyecto**
-
 - **Gestión del carrito de compras:** Los usuarios pueden agregar productos al carrito, modificar las cantidades, o eliminarlos antes de realizar la compra.
 - **Simulación de compra:** Una vez finalizada la selección, el proyecto permite simular el proceso de compra con un resumen de la orden.
 - **Subida a base de datos:** Las compras realizadas se registran en una base de datos para mantener un historial de transacciones.
@@ -28,8 +26,8 @@ Fue creado como parte de un curso de React con el objetivo de aprender y aplicar
 
 ### **Lenguajes y Herramientas**
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" alt="JavaScript" width="50" style="margin-right: 10px;">  
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" alt="CSS3" width="50" style="margin-right: 10px;">  
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" alt="JavaScript" width="50" style="margin-right: 10px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png" alt="CSS3" width="50" style="margin-right: 10px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React" width="50" style="margin-right: 10px;">
 
 ### **Principales Dependencias**
