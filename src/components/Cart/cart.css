@@ -63,26 +63,45 @@
     align-items: center;
 }
 
-.total-cart button {
-    padding: 10px 15px;
-    font-size: 18px;
-    background-color: #000000;
-    text-decoration: none;
-    border-radius: 6px;
-    margin-top: 16px;
-    color: white;
-    border: none;
-    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    cursor: pointer;
-    transition: transform 0.3s ease;
+.total-cart .total {
+    font-size: 24px;
 }
 
-.total-cart button:hover {
-    transform: scale(1.05);
+.cart-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cart-btns button {
+    padding: 10px 15px;
+    background: rgb(196, 30, 30);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.cart-btns .finalizar-compra{
+    padding: 10px 15px;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 15px;
+
 }
 
 .cart-prices {
-    font-weight: 650;
+    font-weight: 700;
 }
 
 .counter-container {
@@ -106,3 +125,5 @@
     font-size: 22px;
     font-weight: 600;
 }
+
+

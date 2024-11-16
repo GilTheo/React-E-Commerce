@@ -25,12 +25,7 @@
   cursor: pointer;
   background-color: #000000;
   color: #EEE5E9;
-  transition: transform 0.3s ease;
   padding: 5px 12px;
   border-radius: 6px;
   border: none;
-}
-
-.add-to-cart-button:hover {
-  transform: scale(1.02);
 }
